@@ -12,7 +12,7 @@ function distanceFromHqInFeet(value) {
 
 function distanceTravelledInFeet(start, destination) {
     return Math.abs(start - destination)*264
-  }
+}
 
 function calculatesFarePrice(start, destination) {
     if (distanceTravelledInFeet(start, destination) < 400) {
@@ -24,4 +24,4 @@ function calculatesFarePrice(start, destination) {
     } else {
         return 'cannot travel that far'
     }
-  }
+}
